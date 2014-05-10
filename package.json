@@ -1,0 +1,32 @@
+{
+  "name": "http-proxy",
+  "version": "0.0.1",
+  "description": "HTTP Proxy",
+  "keywords": [
+    "http",
+    "proxy",
+    "node",
+    "simple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sandeshdanwale/http-proxy.git"
+  },
+  "author": {
+    "name": "Sandesh Danwale"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "readmeFilename": "Readme.md"
+}
