@@ -4,6 +4,7 @@
 ###HTTPs <-> HTTPs
 <br/>
 var http = require('http')
+  , https = require('https')
   , httpProxy = require('./http-proxy')
   , fs = require('fs');
 
@@ -38,6 +39,7 @@ var http = require('http')
     
     
     var http = require('http')
+      , https = require('https')
       , httpProxy = require('./http-proxy')
       , fs = require('fs');
     
